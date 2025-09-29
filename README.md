@@ -1,16 +1,74 @@
-# React + Vite
+# 🛠️ Responsive FAQ, Get In Touch & Footer Sections (React + TailwindCSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project contains three fully responsive UI components built with **React** and **Tailwind CSS**:
 
-Currently, two official plugins are available:
+1. **FAQ Accordion Section** – expandable/collapsible questions and answers.  
+2. **Get In Touch Section** – a call-to-action (CTA) card with heading, description, and button.  
+3. **Footer Section** – responsive footer with links, copyright, and social media icons.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+All sections are **pixel-perfect** based on given design specs for **desktop, tablet, and mobile**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
 
-## Expanding the ESLint configuration
+### FAQ Accordion
+- Expand/collapse answers smoothly
+- Works seamlessly across devices
+- Adjustable padding and spacing per screen size
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Get In Touch
+- Blue CTA card with heading, description, and button
+- Dynamic layout with responsive padding/gap
+
+### Footer
+- Clean responsive footer with:
+  - Navigation links
+  - Social icons
+  - Copyright text
+- Adapts to mobile stacking and desktop inline view
+
+---
+
+## 📐 Design Specs
+
+### FAQ Section
+- Desktop: `1600px` width, `456px` height, `gap: 80px`, `padding: 120px top/right, 60px bottom`
+- Tablet: `768px` width, `631px` height, `gap: 40px`, `padding: 40px`
+- Mobile: `390px` width, `776px` height, `gap: 32px`, `padding: 32px top/bottom, 16px sides`
+
+### Get In Touch Section
+- Desktop: `1600px` width, `644px` height, `gap: 120px`, `padding: 120px`
+- Tablet: `768px` width, `358px` height, `gap: 40px`, `padding: 40px`
+- Mobile: `390px` width, `300px` height, `padding: 32px top/bottom, 16px sides`
+
+### Footer Section
+- Fully responsive design
+- Desktop: horizontal layout
+- Tablet: reduced spacing
+- Mobile: stacked layout with smaller padding
+
+---
+
+## 🚀 Tech Stack
+- [React 18+](https://react.dev/) – UI Library  
+- [Tailwind CSS](https://tailwindcss.com/) – Styling  
+- [Lucide React](https://lucide.dev/) – Icons  
+
+---
+
+## ⚡ Installation & Setup
+
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/NurMuhammadCSE/Frontend-Developer-Task-1
+   cd Frontend-Developer-Task-1
+    ```
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3. **Run the development server:**
+    ```
+    npm run dev
+    ```
