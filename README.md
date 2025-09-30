@@ -1,3 +1,6 @@
+#  👉 [**Live Preview Here**](https://frontend-developer-task-1.vercel.app/)
+
+
 # 🛠️ Responsive FAQ, Get In Touch & Footer Sections (React + TailwindCSS)
 
 This project contains three fully responsive UI components built with **React** and **Tailwind CSS**:
